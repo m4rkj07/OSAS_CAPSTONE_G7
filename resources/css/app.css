@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for active pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 0.25rem;
+}
+
+.pagination li a {
+    padding: 0.5rem 1rem;
+    border: 1px solid #d1d5db; /* Gray border */
+    border-radius: 0.25rem;
+    color: #374151; /* Gray text */
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.pagination li a:hover {
+    background-color: #3b82f6; /* Blue background on hover */
+    color: white; /* White text on hover */
+    border-color: #3b82f6;
+}
+
+.pagination .active {
+    background-color: #3b82f6; /* Blue background for active page */
+    color: white; /* White text for active page */
+    border-color: #3b82f6;
+}
+
+.pagination .disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
