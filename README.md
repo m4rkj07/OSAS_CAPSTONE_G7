@@ -1,64 +1,54 @@
-📑 Reporting Management System
+# SCHOOL MANAGEMENT SYSTEM: OFFICE OF THE SAFETY AND SECURITY, THE DEVELOPMENT OF REPORTING MANAGEMENT SYSTEM AND SCHOOL MAPPING FOR SECURE LEARNING ENVIRONMENT.
+ 
 
-A web-based system designed to streamline the process of reporting, managing, and monitoring incidents such as bullying and misconduct within an organization. This project was developed as part of the OSAS Capstone Project to provide a secure, efficient, and user-friendly platform for students, employees, and administrators.
+A web-based system designed to streamline the process of reporting, managing, and monitoring incidents such as bullying and misconduct within an organization. This project was developed as part of the **OSAS Capstone Project** to provide a secure, efficient, and user-friendly platform for students, employees, and administrators.  
 
-🚀 Features
+---
 
-User Roles
+## 🚀 Features  
 
-User: Submit incident reports, track report status.
+- **User Roles**  
+  - **User**: Submit incident reports, track report status.  
+  - **Admin**: Manage reports, update status, monitor trends.  
+  - **Super Admin**: Full system access, role and account management.  
 
-Admin: Manage reports, update status, monitor trends.
+- **Reporting Module**  
+  - Submit incident reports with details (type, description, location, evidence).  
+  - Track status updates (pending, in-progress, completed).  
+  - Support for ESI severity levels.  
 
-Super Admin: Full system access, role and account management.
+- **Comment System**  
+  - Users and admins can exchange comments within reports.  
+  - Keeps a clear communication thread for each case.  
 
-Reporting Module
+- **Dashboard & Analytics**  
+  - Monthly summaries of report statuses.  
+  - Growth rate comparison by month.  
+  - Severity level breakdowns with trend insights.  
+  - Incident type distribution and charts.  
 
-Submit incident reports with details (type, description, location, evidence).
+- **Prefect Module**  
+  - Specialized module for incidents tagged as **Prefect-related**.  
 
-Track status updates (pending, in-progress, completed).
+- **Notifications**  
+  - Real-time updates via WebSockets.  
+  - Status and comment alerts.  
 
-Support for ESI severity levels.
+---
 
-Comment System
+## 🛠️ Technologies Used  
 
-Users and admins can exchange comments within reports.
+- **Framework**: Laravel 11 (PHP 8.2)  
+- **Frontend**: Blade Templates, Tailwind CSS, Alpine.js, SweetAlert2  
+- **Database**: MySQL  
+- **Realtime**: Laravel WebSockets / Pusher  
+- **Authentication**: Laravel Breeze (roles & permissions)  
 
-Keeps a clear communication thread for each case.
+---
 
-Dashboard & Analytics
+## 📂 Project Structure  
 
-Monthly summaries of report statuses.
-
-Growth rate comparison by month.
-
-Severity level breakdowns with trend insights.
-
-Incident type distribution and charts.
-
-Prefect Module
-
-Specialized module for incidents tagged as Prefect-related.
-
-Notifications
-
-Real-time updates via WebSockets.
-
-Status and comment alerts.
-
-🛠️ Technologies Used
-
-Framework: Laravel 11 (PHP 8.2)
-
-Frontend: Blade Templates, Tailwind CSS, Alpine.js, SweetAlert2
-
-Database: MySQL
-
-Realtime: Laravel WebSockets / Pusher
-
-Authentication: Laravel Breeze (roles & permissions)
-
-📂 Project Structure
+```bash
 OSAS_CAPSTONE_G7/
 │── app/                # Application logic (Models, Controllers, Policies)
 │── resources/views/    # Blade templates (Admin & User views)
@@ -69,10 +59,8 @@ OSAS_CAPSTONE_G7/
 │── .env.example        # Example environment file
 │── composer.json       # PHP dependencies
 │── package.json        # JS dependencies
-
 ⚙️ Getting Started
 Prerequisites
-
 PHP 8.2+
 
 Composer
@@ -82,6 +70,8 @@ Node.js & NPM
 MySQL
 
 Installation
+bash
+Copy code
 # Clone the repository
 git clone https://github.com/m4rkj07/OSAS_CAPSTONE_G7.git
 
@@ -104,9 +94,7 @@ php artisan migrate --seed
 
 # Start the server
 php artisan serve
-
 📊 Usage
-
 Register or log in as a user to create reports.
 
 Admins and Super Admins can view all submitted reports in their dashboards.
@@ -116,11 +104,11 @@ Use the filter/search options in the report table to organize and locate inciden
 Access charts and analytics on the admin dashboard for report insights.
 
 🧪 Testing
+bash
+Copy code
 # Run feature and unit tests
 php artisan test
-
 🤝 Contributing
-
 Fork the repository
 
 Create your feature branch (git checkout -b feature/YourFeature)
@@ -132,14 +120,11 @@ Push to the branch (git push origin feature/YourFeature)
 Create a Pull Request
 
 📜 License
-
 This project is licensed under the MIT License.
 
 📧 Contact
-
 Developer: Mark Joseph Villena
 
-Email: [your-email@example.com
-]
+Email: your-email@example.com
 
 GitHub: m4rkj07
