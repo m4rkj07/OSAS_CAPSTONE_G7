@@ -1,9 +1,7 @@
 # SCHOOL MANAGEMENT SYSTEM: OFFICE OF THE SAFETY AND SECURITY, THE DEVELOPMENT OF REPORTING MANAGEMENT SYSTEM AND SCHOOL MAPPING FOR SECURE LEARNING ENVIRONMENT.
  
 
-A web-based system designed to streamline the process of reporting, managing, and monitoring incidents such as bullying and misconduct within an organization. This project was developed as part of the **OSAS Capstone Project** to provide a secure, efficient, and user-friendly platform for students, employees, and administrators.  
-
----
+A web-based system designed to streamline the process of reporting, real time school mapping, managing, and monitoring incidents such as bullying and misconduct within an organization. This project was developed as part of the **OSAS Capstone Project** to provide a secure, efficient, and user-friendly platform for students, employees, and administrators.  
 
 ## 🚀 Features  
 
@@ -34,8 +32,6 @@ A web-based system designed to streamline the process of reporting, managing, an
   - Real-time updates via WebSockets.  
   - Status and comment alerts.  
 
----
-
 ## 🛠️ Technologies Used  
 
 - **Framework**: Laravel 11 (PHP 8.2)  
@@ -44,11 +40,9 @@ A web-based system designed to streamline the process of reporting, managing, an
 - **Realtime**: Laravel WebSockets / Pusher  
 - **Authentication**: Laravel Breeze (roles & permissions)  
 
----
 
 ## 📂 Project Structure  
 
-```bash
 OSAS_CAPSTONE_G7/
 │── app/                # Application logic (Models, Controllers, Policies)
 │── resources/views/    # Blade templates (Admin & User views)
@@ -59,19 +53,16 @@ OSAS_CAPSTONE_G7/
 │── .env.example        # Example environment file
 │── composer.json       # PHP dependencies
 │── package.json        # JS dependencies
+
 ⚙️ Getting Started
+
 Prerequisites
-PHP 8.2+
-
-Composer
-
-Node.js & NPM
-
-MySQL
+* PHP 8.2+
+* Composer
+* Node.js & NPM
+* MySQL
 
 Installation
-bash
-Copy code
 # Clone the repository
 git clone https://github.com/m4rkj07/OSAS_CAPSTONE_G7.git
 
@@ -94,37 +85,30 @@ php artisan migrate --seed
 
 # Start the server
 php artisan serve
+
 📊 Usage
-Register or log in as a user to create reports.
 
-Admins and Super Admins can view all submitted reports in their dashboards.
-
-Use the filter/search options in the report table to organize and locate incidents.
-
-Access charts and analytics on the admin dashboard for report insights.
+*Register or log in as a user to create reports.
+*Admins and Super Admins can view all submitted reports in their dashboards.
+*Use the filter/search options in the report table to organize and locate incidents.
+*Access charts and analytics on the admin dashboard for report insights.
 
 🧪 Testing
-bash
-Copy code
+
 # Run feature and unit tests
 php artisan test
+
 🤝 Contributing
-Fork the repository
-
-Create your feature branch (git checkout -b feature/YourFeature)
-
-Commit your changes (git commit -m 'Add some feature')
-
-Push to the branch (git push origin feature/YourFeature)
-
-Create a Pull Request
+*Fork the repository
+*Create your feature branch (git checkout -b feature/YourFeature)
+*Commit your changes (git commit -m 'Add some feature')
+*Push to the branch (git push origin feature/YourFeature)
+*Create a Pull Request
 
 📜 License
 This project is licensed under the MIT License.
 
 📧 Contact
 Developer: Mark Joseph Villena
-
-Email: your-email@example.com
-
+Email: bcposas@gmail.com.com
 GitHub: m4rkj07
